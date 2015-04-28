@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>84B2C6DD-7FC0-4740-ADA8-0E8EA759F0E7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>690586D02A3471BEC5C292EB1853696F48EB4953</key>
+		<string>github.com:zmcartor/iOS-Network-Stack.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOSNetworkStack/iOSNetworkStack.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>690586D02A3471BEC5C292EB1853696F48EB4953</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:zmcartor/iOS-Network-Stack.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>690586D02A3471BEC5C292EB1853696F48EB4953</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>690586D02A3471BEC5C292EB1853696F48EB4953</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-Network-Stack</string>
+		</dict>
+	</array>
+</dict>
+</plist>
