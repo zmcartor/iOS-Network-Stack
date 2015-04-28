@@ -14,6 +14,8 @@
 		98EE02E41AEF3062001BE720 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EE02E31AEF3062001BE720 /* Images.xcassets */; };
 		98EE02E71AEF3062001BE720 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98EE02E51AEF3062001BE720 /* LaunchScreen.xib */; };
 		98EE02F31AEF3062001BE720 /* iOSNetworkStackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EE02F21AEF3062001BE720 /* iOSNetworkStackTests.m */; };
+		98EE02FF1AEF32A4001BE720 /* TheNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EE02FE1AEF32A4001BE720 /* TheNetwork.m */; };
+		98EE03021AEF35E0001BE720 /* ExampleNetworkJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EE03011AEF35E0001BE720 /* ExampleNetworkJob.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		98EE02EC1AEF3062001BE720 /* iOSNetworkStackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSNetworkStackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EE02F11AEF3062001BE720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98EE02F21AEF3062001BE720 /* iOSNetworkStackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSNetworkStackTests.m; sourceTree = "<group>"; };
+		98EE02FD1AEF32A4001BE720 /* TheNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheNetwork.h; sourceTree = "<group>"; };
+		98EE02FE1AEF32A4001BE720 /* TheNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheNetwork.m; sourceTree = "<group>"; };
+		98EE03001AEF35E0001BE720 /* ExampleNetworkJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleNetworkJob.h; sourceTree = "<group>"; };
+		98EE03011AEF35E0001BE720 /* ExampleNetworkJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleNetworkJob.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,10 @@
 		98EE02FC1AEF3135001BE720 /* Network Stack */ = {
 			isa = PBXGroup;
 			children = (
+				98EE03001AEF35E0001BE720 /* ExampleNetworkJob.h */,
+				98EE03011AEF35E0001BE720 /* ExampleNetworkJob.m */,
+				98EE02FD1AEF32A4001BE720 /* TheNetwork.h */,
+				98EE02FE1AEF32A4001BE720 /* TheNetwork.m */,
 			);
 			name = "Network Stack";
 			sourceTree = "<group>";
@@ -229,6 +239,8 @@
 			files = (
 				98EE02DF1AEF3062001BE720 /* ViewController.m in Sources */,
 				98EE02DC1AEF3062001BE720 /* AppDelegate.m in Sources */,
+				98EE02FF1AEF32A4001BE720 /* TheNetwork.m in Sources */,
+				98EE03021AEF35E0001BE720 /* ExampleNetworkJob.m in Sources */,
 				98EE02D91AEF3062001BE720 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
