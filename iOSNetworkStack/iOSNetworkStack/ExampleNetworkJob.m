@@ -43,8 +43,11 @@
         NSError *error;
         NSDictionary *ipDict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&error];
         
+        // pass back results on the main queue
         if(blockSelf.completion){
-            blockSelf.completion(ipDict[@"ip"]);
+            dispatch_async(dispatch_get_main_queue(), ^{
+                blockSelf.completion(ipDict[@"ip"]);
+            });
         }
     
         dispatch_group_leave(group);
